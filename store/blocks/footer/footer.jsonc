@@ -7,18 +7,11 @@
   },
   "footer-layout.desktop": {
     "children": [
-      "rich-text#whatsapp",
       "newsletter",
       "footer-row#1-desktop",
       "footer-row#2-desktop",
       "footer-row#3-desktop"
     ]
-  },
-  "rich-text#whatsapp": {
-    "props": {
-      "text": "[whatsApp](https://api.whatsapp.com/send?phone=5531988817737&text=&source=&data=?target=_blank)",
-      "blockClass": "whatsapp"
-    }
   },
   "newsletter": {
     "props": {
@@ -186,8 +179,7 @@
   "flex-layout.col#footerCol3": {
     "children": [
       "rich-text#centralAtendimento",
-      "rich-text#footer-telefone",
-      "rich-text#footer-whatsapp"
+      "rich-text#footer-telefone"
     ],
     "props": {
       "blockClass": "footer-content3"
@@ -201,58 +193,37 @@
   },
   "rich-text#footer-endereco": {
     "props": {
-      "text": "![alt](https://storecomponents.vteximg.com.br/assets/vtex.file-manager-graphql/images/icon-pin-footer___75891396995d4eccbc37c48476f9c929.png) Rod Januário Carneiro 3380, Loja 03/04 - Bosque residencial do Jambreiro - Nova Lima - MG",
+      "text": "![alt](https://storecomponents.vteximg.com.br/assets/vtex.file-manager-graphql/images/icon-pin-footer___75891396995d4eccbc37c48476f9c929.png) Rua João Chiaramote, 356 - Jardim Caxambu - Jundiaí - SP - CEP: 13.218-670",
       "blockClass": "footer-endereco"
     }
   },
   "rich-text#footer-telefone": {
     "props": {
-      "text": "![telefone](https://storecomponents.vteximg.com.br/assets/vtex.file-manager-graphql/images/icon-phone-footer___18f873f62402285b425ca12a13c5743b.png) (31) 3581-7737",
+      "text": "![telefone](https://storecomponents.vteximg.com.br/assets/vtex.file-manager-graphql/images/icon-phone-footer___18f873f62402285b425ca12a13c5743b.png) (11) 4584-0584",
       "blockClass": "footer-telefone"
-    }
-  },
-  "rich-text#footer-whatsapp": {
-    "props": {
-      "text": "![whatsapp](https://storecomponents.vteximg.com.br/assets/vtex.file-manager-graphql/images/icon-whatsapp-footer___463b541645cc6bb7f56e7e1fd896be3b.png) (31) 98881-7737",
-      "blockClass": "footer-whatsapp"
     }
   },
   "rich-text#footer-horario": {
     "props": {
-      "text": "![horário](https://storecomponents.vteximg.com.br/assets/vtex.file-manager-graphql/images/icon-clock-footer___d9fc490193211e6c91996794b3f323a4.png) Segunda a sexta-feira de 08h00 as 12h00 (exceto feriados)",
+      "text": "![horário](https://storecomponents.vteximg.com.br/assets/vtex.file-manager-graphql/images/icon-clock-footer___d9fc490193211e6c91996794b3f323a4.png) Segunda à Sex. das 8h às 18h",
       "blockClass": "footer-horario"
     }
   },
   // Footer Col 4
   "flex-layout.col#footerCol4": {
     "children": [
-      "rich-text#farmaceuticoResponsavel",
-      // "rich-text#footer-responsavel"
-      "rich-text#emailPrincipal",
-      "rich-text#footer-horario"
+      "rich-text#facebook-frame"
     ],
     "props": {
       "blockClass": "footer-content4"
     }
   },
-  "rich-text#emailPrincipal": {
+  "rich-text#facebook-frame": {
     "props": {
-      "text": "SEU E-MAIL AQUI",
-      "blockClass": "emailHere"
+      "text": "SEU E-MAIL AQUI"
     }
   },
-  "rich-text#farmaceuticoResponsavel": {
-    "props": {
-      "text": "FARMACÊUTICO RESPONSÁVEL",
-      "blockClass": "footer-title"
-    }
-  },
-  "rich-text#footer-responsavel": {
-    "props": {
-      "text": "Ana Carolina Gonçalves<br/>CRF/MG: 35722<br/>CMVS: 002920/2018<br/>Alvará de Funcionamento da ANVISA (AFE):<br/>25351.365818/2018-53<br/>Razão Social: F.R. de Freitas<br/>CNPJ: 08.002.459/0004-89<br/><br/>Telefones:<br/>Conselho Regional de Farmácia: (31)3218-1000<br/>Vigilância Estadual (MG): (31) 3215-7362",
-      "blockClass": "footer-responsavel"
-    }
-  },
+
   "flex-layout.col#footer2Col1": {
     "children": [
       "rich-text#siganos",
