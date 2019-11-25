@@ -1,0 +1,182 @@
+.notificationBarContainer {
+  background-color: #E6F1E6;
+  color: #03034E;
+  font-weight: 700;
+  font-size: 12px;
+  text-decoration: underline;
+}
+
+.searchBarContainer {
+  max-width: 700px;
+}
+
+.imageElement--bannerMiddle{max-width: 100% !important;}
+
+.infoCardContainer--info-card-home {
+  max-width: 1520px;
+  margin: 0 auto;
+  background-color: #E6F1E6;
+  padding: 0px;
+}
+
+.newsletter {
+  background-color: #d12e2e;
+  width:100%;
+  text-align: center;
+}
+
+.newsletter .container {
+  padding: 60px 10px;
+}
+
+.label {
+  color: #fff;
+  font-size: 26px;
+}
+
+.inputGroup {
+  padding-bottom: 4px;
+  display: flex;
+  color: #fff;
+  border:0;
+}
+
+.inputGroup .items-stretch{
+  border:0;
+}
+
+.buttonContainer {
+  padding-top: 0px;
+}
+
+.imageElement--storePrint {
+  max-height: 300px;
+  margin-bottom: 20px;
+}
+
+.sellingPriceContainer {
+  margin-bottom: 20px;
+}
+
+.productBrand{
+  color:#005f7f;
+  font-weight: bold;
+  font-size: 14px;
+  margin-bottom: 5px;  
+}
+
+.sellingPriceValue{
+  font-size: 27px;
+  font-weight: 700;
+  color: #d12e2e;  
+}
+
+.installmentsPrice{
+  padding: 2px 0;
+  text-align: left;
+  font-size: 16px;
+  color:#474747;  
+  text-transform: lowercase;
+}
+
+.newsletter .confirmationTitle,.newsletter .confirmationText{
+  color:#fff;
+}
+
+.listPriceLabel, .listPriceValue{
+  padding-left:0;
+}
+
+.installmentsPrice, .savingPrice{
+  padding-left: .25rem;
+}
+.productDescriptionContainer{margin:20px 0;}
+
+/* Especificações */
+.specificationsTableContainer{padding: 0;}
+.specificationsTableContainer .specificationsTitle{display:none;}
+.specificationsTable{width:auto;}
+
+.newsletter .container {
+  padding: 10px 0;
+}
+.newsletter :global(.vtex-button){
+  border: none;
+}
+
+.imageElement--WhatsImage{
+  width: 100%;
+}
+
+.productNameContainer .productBrand{
+  font-size: 25px;
+  color: #188f89;
+}
+
+.productDescriptionTitle{
+  display: none
+}
+
+.imageElement--flagsImg {
+  width: 100%;
+}
+
+.imageElement--WhatsImage {
+  display: none;
+}
+
+@media only screen and (min-width: 640px){
+
+  .imageElement--WhatsImage {
+    display: unset;
+  }
+
+  .newsletter .container {
+    padding: 30px 10px;
+  }
+  .newsletter .form{
+    display: inline-flex;
+    max-width: 100%;
+  }
+
+  .searchBarIcon{
+    background: #188f89;
+    padding: 11px 30px;
+    color: #fff;
+    margin-right: -17px;
+  }
+
+  .newsletter .inputGroup{
+    display:inline-flex;
+    width:auto;
+    border: 0;
+    padding:0 0 0 5px;
+  }
+
+  .newsletter .vtex-input{
+    border-radius:0;
+    border:0;
+  }
+
+  .infoCardContainer--info-card-home .infoCardTextContainer {
+    width: 30%;
+  }
+
+  .infoCardContainer--info-card-home .infoCardImageContainer {
+    width: 70%;
+  }
+
+  .imageElement--storePrint {
+    margin-bottom: 0px;
+    max-height: 600px;
+  }
+
+  .priceContainer .sellingPriceContainer{margin-bottom: 0;}
+  .priceContainer{align-self: center;}
+  .shippingContainer{border-top:1px solid #ddd;border-bottom:1px solid #ddd;padding: 1em;position: relative;}
+
+  .shareContainer{text-align: center;}
+  .shareContainer .shareButtons{justify-content: center;}
+  .carouselGaleryCursor{padding:1em;box-sizing: border-box;border:1px solid #ccc;}
+  .shippingTable{border:1px solid #eee;}
+}

@@ -1,0 +1,15 @@
+@media only screen and (min-width: 80em) {
+    .label{
+        display: block;
+        position: relative;
+    }
+    .badge{
+        top: -18px;
+        left: 12px;
+        width: auto;
+        padding: 4px 12px;
+    }
+    .contentSmall{
+        border: 0;
+    }
+}

@@ -1,0 +1,230 @@
+{
+  "vtex.menu@2.x:menu#category-menu": {
+    "children": [
+      "menu-item#acessories",
+      "menu-item#audio",
+      "menu-item#zetta",
+      "menu-item#official",
+      "menu-item#sport",
+      "menu-item#forHome",
+      "menu-item#bag",
+      "menu-item#perfume"
+    ],
+    "props": {
+      "blockClass": "mainMenu"
+    }
+  },
+  "menu-item#acessories": {
+    "props": {
+      "id": "menu-item-category-acessories",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/acessorios",
+        "noFollow": true,
+        "tagTitle": "Acessórios",
+        "text": "Acessórios"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#submenuBox"
+    ]
+  },
+  "menu-item#audio": {
+    "props": {
+      "id": "menu-item-category-audio",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/audio-e-video",
+        "noFollow": true,
+        "tagTitle": "Audio e Vídeo",
+        "text": "Audio e Vídeo"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#submenuBox"
+    ]
+  },
+  "menu-item#zetta": {
+    "props": {
+      "id": "menu-item-category-zetta",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/zetta-audio",
+        "noFollow": true,
+        "tagTitle": "Zetta Audio",
+        "text": "Zetta Audio"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#submenuBox"
+    ]
+  },
+  "menu-item#official": {
+    "props": {
+      "id": "menu-item-category-official",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/produtos-oficiais-abelvolks",
+        "noFollow": true,
+        "tagTitle": "Itens Oficiais",
+        "text": "Itens Oficiais"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#submenuBox"
+    ]
+  },
+  "menu-item#sport": {
+    "props": {
+      "id": "menu-item-category-sport",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/esportes-e-lazer",
+        "noFollow": true,
+        "tagTitle": "Esporte/Lazer",
+        "text": "Esporte/Lazer"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#submenuBox"
+    ]
+  },
+  "menu-item#forHome": {
+    "props": {
+      "id": "menu-item-category-home",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/para-sua-casa",
+        "noFollow": true,
+        "tagTitle": "Para sua Casa",
+        "text": "Para sua Casa"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#submenuBox2"
+    ]
+  },
+  "menu-item#bag": {
+    "props": {
+      "id": "menu-item-category-bag",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/mochilas",
+        "noFollow": true,
+        "tagTitle": "Mochilas",
+        "text": "Mochilas"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#submenuBox"
+    ]
+  },
+  "menu-item#perfume": {
+    "props": {
+      "id": "menu-item-category-perfume",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/perfumes",
+        "noFollow": true,
+        "tagTitle": "Perfumes",
+        "text": "Perfumes"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#submenuBox"
+    ]
+  },
+  "vtex.menu@2.x:submenu#submenuBox": {
+    "children": [
+      "vtex.menu@2.x:menu#submenu"
+    ]
+  },
+  "vtex.menu@2.x:submenu#submenuBox2": {
+    "children": [
+      "vtex.menu@2.x:menu#submenuOne"
+    ]
+  },
+  "vtex.menu@2.x:menu#submenu": {
+    "children": [],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "vtex.menu@2.x:menu#submenuOne": {
+    "children": [],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "vtex.menu@2.x:submenu#materiais": {
+    "props": {
+      "width": "auto"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#materiais"
+    ]
+  },
+  "vtex.menu@2.x:menu#materiais": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#materiais-cateteres",
+      "menu-item#materiais-pediatrico"
+    ]
+  },
+  "menu-item#materiais-cateteres": {
+    "props": {
+      "id": "menu-item-materiais-cateteres",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/materiais/cateteres",
+        "noFollow": true,
+        "tagTitle": "Cateteres",
+        "text": "Cateteres"
+      }
+    }
+  },
+  "menu-item#materiais-pediatrico": {
+    "props": {
+      "id": "menu-item-materiais-pediatrico",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/materiais/pediatrico",
+        "noFollow": true,
+        "tagTitle": "Pediátrico",
+        "text": "Pediátrico"
+      }
+    }
+  }
+}
