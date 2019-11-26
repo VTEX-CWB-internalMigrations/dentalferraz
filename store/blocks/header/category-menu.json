@@ -2,13 +2,13 @@
   "vtex.menu@2.x:menu#category-menu": {
     "children": [
       "menu-item#ver-todos",
-      "menu-item#audio",
-      "menu-item#zetta",
-      "menu-item#official",
-      "menu-item#sport",
-      "menu-item#forHome",
-      "menu-item#bag",
-      "menu-item#perfume"
+      "menu-item#odontologia",
+      "menu-item#oftalmologia",
+      "menu-item#medicina",
+      "menu-item#veterinario",
+      "menu-item#estetica-e-podologia",
+      "menu-item#industria-e-alimenticio",
+      "menu-item#tatuadores"
     ],
     "props": {
       "blockClass": "mainMenu"
@@ -16,7 +16,7 @@
   },
   "menu-item#ver-todos": {
     "props": {
-      "id": "menu-item-category-acessories",
+      "id": "menu-item-category-ver-todos",
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -24,134 +24,134 @@
         "type": "internal",
         "href": "",
         "noFollow": true,
-        "tagTitle": "Acessórios",
-        "text": "Acessórios"
+        "tagTitle": "Ver todos os departamentos",
+        "text": "Ver todos os departamentos"
       }
     },
     "blocks": [
       "vtex.menu@2.x:submenu#submenuBox"
     ]
   },
-  "menu-item#audio": {
+  "menu-item#odontologia": {
     "props": {
-      "id": "menu-item-category-audio",
+      "id": "menu-item-category-odontologia",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/audio-e-video",
+        "href": "/odontologia",
         "noFollow": true,
-        "tagTitle": "Audio e Vídeo",
-        "text": "Audio e Vídeo"
+        "tagTitle": "Odontologia",
+        "text": "Odontologia"
       }
     },
     "blocks": [
       "vtex.menu@2.x:submenu#submenuBox"
     ]
   },
-  "menu-item#zetta": {
+  "menu-item#oftalmologia": {
     "props": {
-      "id": "menu-item-category-zetta",
+      "id": "menu-item-category-oftalmologia",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/zetta-audio",
+        "href": "/oftalmologia",
         "noFollow": true,
-        "tagTitle": "Zetta Audio",
-        "text": "Zetta Audio"
+        "tagTitle": "Oftalmologia",
+        "text": "Oftalmologia"
       }
     },
     "blocks": [
       "vtex.menu@2.x:submenu#submenuBox"
     ]
   },
-  "menu-item#official": {
+  "menu-item#medicina": {
     "props": {
-      "id": "menu-item-category-official",
+      "id": "menu-item-category-medicina",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/produtos-oficiais-abelvolks",
+        "href": "/medicina",
         "noFollow": true,
-        "tagTitle": "Itens Oficiais",
-        "text": "Itens Oficiais"
+        "tagTitle": "Medicina",
+        "text": "Medicina"
       }
     },
     "blocks": [
       "vtex.menu@2.x:submenu#submenuBox"
     ]
   },
-  "menu-item#sport": {
+  "menu-item#veterinario": {
     "props": {
-      "id": "menu-item-category-sport",
+      "id": "menu-item-category-veterinario",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/esportes-e-lazer",
+        "href": "/veterinario",
         "noFollow": true,
-        "tagTitle": "Esporte/Lazer",
-        "text": "Esporte/Lazer"
+        "tagTitle": "Veterinário",
+        "text": "Veterinário"
       }
     },
     "blocks": [
       "vtex.menu@2.x:submenu#submenuBox"
     ]
   },
-  "menu-item#forHome": {
+  "menu-item#estetica-e-podologia": {
     "props": {
-      "id": "menu-item-category-home",
+      "id": "menu-item-category-estetica-e-podologia",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/para-sua-casa",
+        "href": "/estetica-e-podologia",
         "noFollow": true,
-        "tagTitle": "Para sua Casa",
-        "text": "Para sua Casa"
-      }
-    },
-    "blocks": [
-      "vtex.menu@2.x:submenu#submenuBox2"
-    ]
-  },
-  "menu-item#bag": {
-    "props": {
-      "id": "menu-item-category-bag",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/mochilas",
-        "noFollow": true,
-        "tagTitle": "Mochilas",
-        "text": "Mochilas"
+        "tagTitle": "Estética e Podologia",
+        "text": "Estética e Podologia"
       }
     },
     "blocks": [
       "vtex.menu@2.x:submenu#submenuBox"
     ]
   },
-  "menu-item#perfume": {
+  "menu-item#industria-e-alimenticio": {
     "props": {
-      "id": "menu-item-category-perfume",
+      "id": "menu-item-category-industria-e-alimenticio",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/perfumes",
+        "href": "/industria-e-alimenticio",
         "noFollow": true,
-        "tagTitle": "Perfumes",
-        "text": "Perfumes"
+        "tagTitle": "Indústria e Alimentício",
+        "text": "Indústria e Alimentício"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#submenuBox"
+    ]
+  },
+  "menu-item#tatuadores": {
+    "props": {
+      "id": "menu-item-category-tatuadores",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/tatuadores",
+        "noFollow": true,
+        "tagTitle": "Tatuadores",
+        "text": "Tatuadores"
       }
     },
     "blocks": [
@@ -163,68 +163,10 @@
       "vtex.menu@2.x:menu#submenu"
     ]
   },
-  "vtex.menu@2.x:submenu#submenuBox2": {
-    "children": [
-      "vtex.menu@2.x:menu#submenuOne"
-    ]
-  },
   "vtex.menu@2.x:menu#submenu": {
     "children": [],
     "props": {
       "orientation": "vertical"
-    }
-  },
-  "vtex.menu@2.x:menu#submenuOne": {
-    "children": [],
-    "props": {
-      "orientation": "vertical"
-    }
-  },
-  "vtex.menu@2.x:submenu#materiais": {
-    "props": {
-      "width": "auto"
-    },
-    "children": [
-      "vtex.menu@2.x:menu#materiais"
-    ]
-  },
-  "vtex.menu@2.x:menu#materiais": {
-    "props": {
-      "orientation": "vertical"
-    },
-    "children": [
-      "menu-item#materiais-cateteres",
-      "menu-item#materiais-pediatrico"
-    ]
-  },
-  "menu-item#materiais-cateteres": {
-    "props": {
-      "id": "menu-item-materiais-cateteres",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/materiais/cateteres",
-        "noFollow": true,
-        "tagTitle": "Cateteres",
-        "text": "Cateteres"
-      }
-    }
-  },
-  "menu-item#materiais-pediatrico": {
-    "props": {
-      "id": "menu-item-materiais-pediatrico",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/materiais/pediatrico",
-        "noFollow": true,
-        "tagTitle": "Pediátrico",
-        "text": "Pediátrico"
-      }
     }
   }
 }

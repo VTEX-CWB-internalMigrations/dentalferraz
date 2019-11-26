@@ -20,7 +20,6 @@
   },
   "header-row#contact": {
     "children": [
-      "rich-text#televendas",
       "rich-text#telefone",
       "header-spacer",
       "login"
@@ -53,17 +52,9 @@
       "inverted": true
     }
   },
-  "rich-text#televendas": {
-    "props": {
-      "text": "![televendas](https://storecomponents.vteximg.com.br/assets/vtex.file-manager-graphql/images/icon-phone___92b9b89b646dbd4a277c0313c04169b7.png) Televendas (31) 3581-7737",
-      "textAlignment": "LEFT",
-      "textPosition": "CENTER",
-      "blockClass": "verticalAlign"
-    }
-  },
   "rich-text#telefone": {
     "props": {
-      "text": "![whatsapp](https://storecomponents.vteximg.com.br/assets/vtex.file-manager-graphql/images/icon-whatsapp___647d4f5d67761857f507884104d950d3.png) (31) 98881-7737",
+      "text": "![whatsapp](https://storecomponents.vteximg.com.br/assets/vtex.file-manager-graphql/images/icon-whatsapp___647d4f5d67761857f507884104d950d3.png) (11) 4584-0584",
       "textAlignment": "LEFT",
       "textPosition": "CENTER",
       "blockClass": "verticalAlign"
