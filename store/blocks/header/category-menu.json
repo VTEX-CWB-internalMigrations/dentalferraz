@@ -1,7 +1,7 @@
 {
   "vtex.menu@2.x:menu#category-menu": {
     "children": [
-      "menu-item#acessories",
+      "menu-item#ver-todos",
       "menu-item#audio",
       "menu-item#zetta",
       "menu-item#official",
@@ -14,7 +14,7 @@
       "blockClass": "mainMenu"
     }
   },
-  "menu-item#acessories": {
+  "menu-item#ver-todos": {
     "props": {
       "id": "menu-item-category-acessories",
       "type": "custom",
@@ -22,7 +22,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/acessorios",
+        "href": "",
         "noFollow": true,
         "tagTitle": "Acessórios",
         "text": "Acessórios"
