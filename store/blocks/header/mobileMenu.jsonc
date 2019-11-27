@@ -6,262 +6,223 @@
     },
     "vtex.menu@2.x:menu#mobileMain": {
         "children": [
-            "menu-item#acessoriosMob",
-            "menu-item#audioVideoMob",
-            "menu-item#zettaMob",
-            "menu-item#oficialMob",
-            "menu-item#esporteMob",
-            "menu-item#paraCasaMob",
-            "menu-item#mochilaMob",
-            "menu-item#perfumeMob"
+            "menu-item#odontologia-mobile",
+            "menu-item#oftalmologia-mobile",
+            "menu-item#medicina-mobile",
+            "menu-item#veterinario-mobile",
+            "menu-item#estetica-e-podologia-mobile",
+            "menu-item#industria-e-alimenticio-mobile",
+            "menu-item#tatuadores-mobile"
         ],
         "props": {
             "orientation": "vertical",
             "blockClass": "mobileMenu"
         }
     },
-    // ---------- ACESSÓRIOS MOBILE --------- //
-    "menu-item#acessoriosMob": {
+    "menu-item#odontologia-mobile": {
         "props": {
-            "id": "menu-item-category-acessories-mob",
+            "id": "menu-item-category-odontologia-mobile",
             "type": "custom",
             "iconId": null,
             "highlight": false,
             "itemProps": {
                 "type": "internal",
-                "href": "/acessorios",
+                "href": "/odontologia",
                 "noFollow": true,
-                "tagTitle": "Acessórios",
-                "text": "Acessórios"
+                "tagTitle": "Odontologia",
+                "text": "Odontologia"
             }
         },
         "blocks": [
-            "vtex.menu@2.x:submenu.accordion#acessories"
+            "vtex.menu@2.x:submenu.accordion#odontologia-mobile"
         ]
     },
-    "vtex.menu@2.x:submenu.accordion#acessories": {
+    "vtex.menu@2.x:submenu.accordion#odontologia-mobile": {
         "children": [
-            "vtex.menu@2.x:menu#acessoriesAccordion"
+            "vtex.menu@2.x:menu#odontologiaAccordion"
         ]
     },
-    "vtex.menu@2.x:menu#acessoriesAccordion": {
+    "vtex.menu@2.x:menu#odontologiaAccordion": {
         "children": [],
         "props": {
             "orientation": "vertical",
             "blockClass": "mobileSubmenu"
         }
     },
-    // ----------- AUDIO E VIDEO MOBILE ------------- //
-    "menu-item#audioVideoMob": {
+    "menu-item#oftalmologia-mobile": {
         "props": {
-            "id": "menu-item-category-audio-video-mob",
+            "id": "menu-item-category-oftalmologia-mobile",
             "type": "custom",
             "iconId": null,
             "highlight": false,
             "itemProps": {
                 "type": "internal",
-                "href": "/acessorios",
+                "href": "/oftalmologia",
                 "noFollow": true,
-                "tagTitle": "Audio e Vídeo",
-                "text": "Audio e Vídeo"
+                "tagTitle": "Oftalmologia",
+                "text": "Oftalmologia"
             }
         },
         "blocks": [
-            "vtex.menu@2.x:submenu.accordion#audioVideo"
+            "vtex.menu@2.x:submenu.accordion#oftalmologia-mobile"
         ]
     },
-    "vtex.menu@2.x:submenu.accordion#audioVideo": {
+    "vtex.menu@2.x:submenu.accordion#oftalmologia-mobile": {
         "children": [
-            "vtex.menu@2.x:menu#audioVideoAccordion"
+            "vtex.menu@2.x:menu#oftalmologiaAccordion"
         ]
     },
-    "vtex.menu@2.x:menu#audioVideoAccordion": {
+    "vtex.menu@2.x:menu#oftalmologiaAccordion": {
         "children": [],
         "props": {
             "orientation": "vertical",
             "blockClass": "mobileSubmenu"
         }
     },
-    // ---------- ZETTA SUBMENU ----------
-    "menu-item#zettaMob": {
+    "menu-item#medicina-mobile": {
         "props": {
-            "id": "menu-item-category-zetta-mob",
+            "id": "menu-item-category-medicina-mobile",
             "type": "custom",
             "iconId": null,
             "highlight": false,
             "itemProps": {
                 "type": "internal",
-                "href": "/zetta-audio",
+                "href": "/medicina",
                 "noFollow": true,
-                "tagTitle": "Zetta Audio",
-                "text": "Zetta Audio"
+                "tagTitle": "Medicina",
+                "text": "Medicina"
             }
         },
         "blocks": [
-            "vtex.menu@2.x:submenu.accordion#zettaMob"
+            "vtex.menu@2.x:submenu.accordion#medicina-mobile"
         ]
     },
-    "vtex.menu@2.x:submenu.accordion#zettaMob": {
+    "vtex.menu@2.x:submenu.accordion#medicina-mobile": {
         "children": [
-            "vtex.menu@2.x:menu#zettaAccordion"
+            "vtex.menu@2.x:menu#medicinaAccordion"
         ]
     },
-    "vtex.menu@2.x:menu#zettaAccordion": {
+    "vtex.menu@2.x:menu#medicinaAccordion": {
         "children": [],
         "props": {
             "orientation": "vertical",
             "blockClass": "mobileSubmenu"
         }
     },
-    // ------------ OFICIAIS -------------- //
-    "menu-item#oficialMob": {
+    "menu-item#veterinario-mobile": {
         "props": {
-            "id": "menu-item-category-oficial-mob",
+            "id": "menu-item-category-veterinario-mobile",
             "type": "custom",
             "iconId": null,
             "highlight": false,
             "itemProps": {
                 "type": "internal",
-                "href": "/itens-oficiais",
+                "href": "/veterinario",
                 "noFollow": true,
-                "tagTitle": "Itens Oficiais",
-                "text": "Itens Oficiais"
+                "tagTitle": "Veterinário",
+                "text": "Veterinário"
             }
         },
         "blocks": [
-            "vtex.menu@2.x:submenu.accordion#oficialMob"
+            "vtex.menu@2.x:submenu.accordion#veterinario-mobile"
         ]
     },
-    "vtex.menu@2.x:submenu.accordion#oficialMob": {
+    "vtex.menu@2.x:submenu.accordion#veterinario-mobile": {
         "children": [
-            "vtex.menu@2.x:menu#oficialAccordion"
+            "vtex.menu@2.x:menu#veterinarioAccordion"
         ]
     },
-    "vtex.menu@2.x:menu#oficialAccordion": {
+    "vtex.menu@2.x:menu#veterinarioAccordion": {
         "children": [],
         "props": {
             "orientation": "vertical",
             "blockClass": "mobileSubmenu"
         }
     },
-    // ------------ ESPORTE MOBILE -------------- //
-    "menu-item#esporteMob": {
+    "menu-item#estetica-e-podologia-mobile": {
         "props": {
-            "id": "menu-item-category-esporte-mob",
+            "id": "menu-item-category-estetica-e-podologia-mobile",
             "type": "custom",
             "iconId": null,
             "highlight": false,
             "itemProps": {
                 "type": "internal",
-                "href": "/esporte-lazer",
+                "href": "/estetica-e-podologia",
                 "noFollow": true,
-                "tagTitle": "Esporte/Lazer",
-                "text": "Esporte/Lazer"
+                "tagTitle": "Estética e Podologia",
+                "text": "Estética e Podologia"
             }
         },
         "blocks": [
-            "vtex.menu@2.x:submenu.accordion#esporteMob"
+            "vtex.menu@2.x:submenu.accordion#estetica-e-podologia-mobile"
         ]
     },
-    "vtex.menu@2.x:submenu.accordion#esporteMob": {
+    "vtex.menu@2.x:submenu.accordion#estetica-e-podologia-mobile": {
         "children": [
-            "vtex.menu@2.x:menu#esporteAccordion"
+            "vtex.menu@2.x:menu#estetica-e-podologiaAccordion"
         ]
     },
-    "vtex.menu@2.x:menu#esporteAccordion": {
+    "vtex.menu@2.x:menu#estetica-e-podologiaAccordion": {
         "children": [],
         "props": {
             "orientation": "vertical",
             "blockClass": "mobileSubmenu"
         }
     },
-    // ---------- PARA A CASA ------------ //
-    "menu-item#paraCasaMob": {
+    "menu-item#industria-e-alimenticio-mobile": {
         "props": {
-            "id": "menu-item-category-para-casa-mob",
+            "id": "menu-item-category-industria-e-alimenticio-mobile",
             "type": "custom",
             "iconId": null,
             "highlight": false,
             "itemProps": {
                 "type": "internal",
-                "href": "/para-sua-casa",
+                "href": "/industria-e-alimenticio",
                 "noFollow": true,
-                "tagTitle": "Para Sua Casa",
-                "text": "Para Sua Casa"
+                "tagTitle": "Indústria e Alimentício",
+                "text": "Indústria e Alimentício"
             }
         },
         "blocks": [
-            "vtex.menu@2.x:submenu.accordion#paraCasaMob"
+            "vtex.menu@2.x:submenu.accordion#industria-e-alimenticio-mobile"
         ]
     },
-    "vtex.menu@2.x:submenu.accordion#paraCasaMob": {
+    "vtex.menu@2.x:submenu.accordion#industria-e-alimenticio-mobile": {
         "children": [
-            "vtex.menu@2.x:menu#paraCasaAccordion"
+            "vtex.menu@2.x:menu#industria-e-alimenticioAccordion"
         ]
     },
-    "vtex.menu@2.x:menu#paraCasaAccordion": {
+    "vtex.menu@2.x:menu#industria-e-alimenticioAccordion": {
         "children": [],
         "props": {
             "orientation": "vertical",
             "blockClass": "mobileSubmenu"
         }
     },
-    // ------------- MOCHILA ------------ //
-    "menu-item#mochilaMob": {
+    "menu-item#tatuadores-mobile": {
         "props": {
-            "id": "menu-item-category-mochilas-mob",
+            "id": "menu-item-category-tatuadores-mobile",
             "type": "custom",
             "iconId": null,
             "highlight": false,
             "itemProps": {
                 "type": "internal",
-                "href": "/mochilas",
+                "href": "/tatuadores",
                 "noFollow": true,
-                "tagTitle": "Mochilas",
-                "text": "Mochilas"
+                "tagTitle": "Tatuadores",
+                "text": "Tatuadores"
             }
         },
         "blocks": [
-            "vtex.menu@2.x:submenu.accordion#mochilasMob"
+            "vtex.menu@2.x:submenu.accordion#tatuadores-mobile"
         ]
     },
-    "vtex.menu@2.x:submenu.accordion#mochilasMob": {
+    "vtex.menu@2.x:submenu.accordion#tatuadores-mobile": {
         "children": [
-            "vtex.menu@2.x:menu#mochilasAccordion"
+            "vtex.menu@2.x:menu#tatuadoresAccordion"
         ]
     },
-    "vtex.menu@2.x:menu#mochilasAccordion": {
-        "children": [],
-        "props": {
-            "orientation": "vertical",
-            "blockClass": "mobileSubmenu"
-        }
-    },
-    // --------------- PERFUME --------------- //
-    "menu-item#perfumeMob": {
-        "props": {
-            "id": "menu-item-category-perfume-mob",
-            "type": "custom",
-            "iconId": null,
-            "highlight": false,
-            "itemProps": {
-                "type": "internal",
-                "href": "/perfume",
-                "noFollow": true,
-                "tagTitle": "Perfume",
-                "text": "Perfume"
-            }
-        },
-        "blocks": [
-            "vtex.menu@2.x:submenu.accordion#perfume"
-        ]
-    },
-    "vtex.menu@2.x:submenu.accordion#perfume": {
-        "children": [
-            "vtex.menu@2.x:menu#perfumeAccordion"
-        ]
-    },
-    "vtex.menu@2.x:menu#perfumeAccordion": {
+    "vtex.menu@2.x:menu#tatuadoresAccordion": {
         "children": [],
         "props": {
             "orientation": "vertical",

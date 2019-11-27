@@ -38,11 +38,6 @@
       "blockClass": "logoRow"
     }
   },
-  "search-bar": {
-    "props": {
-      "iconClasses": "icon-default"
-    }
-  },
   "header-row#menu": {
     "children": [
       "vtex.menu@2.x:menu#category-menu"
