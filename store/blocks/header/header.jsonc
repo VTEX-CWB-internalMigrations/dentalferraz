@@ -54,7 +54,7 @@
   },
   "rich-text#telefone": {
     "props": {
-      "text": "![whatsapp](https://storecomponents.vteximg.com.br/assets/vtex.file-manager-graphql/images/icon-whatsapp___647d4f5d67761857f507884104d950d3.png) (11) 4584-0584",
+      "text": "Contato: (11) 4584-0584",
       "textAlignment": "LEFT",
       "textPosition": "CENTER",
       "blockClass": "verticalAlign"
@@ -112,13 +112,7 @@
       "blockClass": "main-header-mobile"
     }
   },
-  // "menu#drawer": {
-  //   "children": [
-  //   ],
-  //   "props": {
-  //     "orientation": "vertical"
-  //   }
-  // },
+
   "logo#mobile": {
     "props": {
       "title": "Logo",
