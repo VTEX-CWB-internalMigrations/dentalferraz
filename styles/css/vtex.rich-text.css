@@ -21,7 +21,7 @@
   max-width: 540px;
   margin: 0 16px;
   padding-top: 120px;
-  color: #03034E;
+  color: #308391;
 }
 
 .container--question .strong {
@@ -35,7 +35,7 @@
   max-width: 540px;
   padding-top: 36px;
   padding-bottom: 84px;
-  color: #03034E;
+  color: #308391;
 }
 
 .container--link .strong {
@@ -48,11 +48,11 @@
   text-decoration: none;
   font-size: 36px;
   font-weight: 300;
-  color: #03034E;
+  color: #308391;
 }
 
 .container--title {
-  color: #03034E;
+  color: #308391;
   font-size: 28px;
   font-weight: 700;
 }
@@ -62,7 +62,7 @@
 }
 
 .container--deals .paragraph{
-  color: #d12e2e;
+  color: #308391;
   font-size: .7rem;
   font-weight: bold;
   text-align: left;
@@ -70,14 +70,14 @@
 
 .container--footer-title .paragraph{
   font-size: 15px;
-  color: #c6b550;  
+  color: #308391;  
   font-weight: bold;
 }
 
 .container--alert{justify-content: center;}
 
 .container--alert .paragraph{
-  color: #004085;
+  color: #308391;
   background-color: #cce5ff;
   position: relative;
   padding: .75rem 1.25rem;
@@ -99,7 +99,7 @@
 .container--footer-entrega .paragraph,
 .container--footer-parcelamento .paragraph,
 .container--footer-seguranca .paragraph{
-    color: #00abb4;
+    color: #308391;
     font-size: 15px;
     font-weight: bold;
     margin: 0 0 10px;
@@ -137,9 +137,9 @@
 
 .container--title-default .paragraph{
   font-size: 23px;
-  border: 1px solid #c6b550;
+  border: 1px solid #308391;
   text-transform: uppercase;
-  color: #c6b550;
+  color: #308391;
   font-weight: 700;
   width: auto;
   margin: 20px 0;
@@ -157,7 +157,7 @@
 
 .container--encontreNos .paragraph{text-align: center;}
 .container--encontreNos .paragraph .strong{
-  color:#5f84f2;
+  color:#308391;
   font-size:1em;
   display: block;
   text-align: center;
@@ -198,7 +198,7 @@
 .container--questionText .headingLevel4{
     margin: 0px;
     padding: 10px 10px;
-    background: #188f89;
+    background: #308391;
     width: 100%;
     display: flex;
     color: #fff;
@@ -223,7 +223,7 @@
   }
 
   .container--title {
-    color: #03034E;
+    color: #308391;
     font-size: 40px;
     font-weight: 700;
     max-width: 60%;

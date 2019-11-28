@@ -12,24 +12,6 @@
 }
 .flexRow--product-contentPrices{border-top:1px solid #ddd;border-bottom: 1px solid #ddd;position: relative;min-height: 105px;}
 
-/* .flexRow--btn-buyProduct button{
-  background: #83c44c;
-  color: #fff;
-  border-radius: 0;
-  text-transform: uppercase;
-  border: 0;
-  padding: 10px;
-  transition: .2s linear;
-} */
-
-/* .flexRow--btn-buyProduct button:hover{
-  background-color: #609831;
-} */
-
-/* .flexRow--btn-buyProduct > div{
-  margin: 0;
-} */
-
 .flexRow--block-questions .stretchChildrenWidth{
   width: 100% !important;
   display:flex;
