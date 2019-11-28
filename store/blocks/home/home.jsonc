@@ -2,12 +2,9 @@
   "store.home": {
     "blocks": [
       "carousel#One",
-      // "flex-layout.row#deals",
       "image#whatsapp",
       "shelf#showcase01",
-      "shelf#showcase02",
-      "shelf#showcase03",
-      "flex-layout.row#shelfbanner"
+      "shelf#showcase02"
     ]
   },
   "carousel#One": {
@@ -121,41 +118,5 @@
     "props": {
       "blockClass": "consult-shelf"
     }
-  },
-  // Showcase 02
-  "shelf#showcase03": {
-    "blocks": [
-      "product-summary.shelf#home3"
-    ],
-    "props": {
-      "category": "2",
-      "orderBy": "OrderByTopSaleDESC",
-      "blockClass": "abelvolks-shelf",
-      "productList": {
-        "maxItems": 10,
-        "itemsPerPage": 5,
-        "scroll": "BY_PAGE",
-        "arrows": false,
-        "dots": true,
-        "titleText": "Produtos Abelvolks"
-      }
-    }
-  },
-  "product-summary.shelf#home3": {
-    "children": [
-      "product-summary-image",
-      "product-summary-name",
-      "product-summary-space",
-      "product-summary-price",
-      "product-summary-buy-button"
-    ],
-    "props": {
-      "blockClass": "consult-shelf"
-    }
   }
-  // "product-summary-buy-button":{
-  //   "props":{
-  //     "buyButtonText":"Comprar",
-  //   }
-  // },
 }
