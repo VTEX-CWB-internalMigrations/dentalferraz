@@ -2,7 +2,6 @@
   background-color: #f4f4f4;
   padding: 14px 0px;
 }
-
 .flexRow--deals  .stretchChildrenWidth {
   align-items: center;
   vertical-align: middle;
@@ -29,10 +28,6 @@
     margin: 25px 0;
     padding: 30px 0;
   }
-
-  .flexCol--footer-content3{
-    padding-right:70px;
-  }
   .flexRow--borderFooter{
     border-bottom:1px solid #ddd;
     margin-bottom: 50px;
@@ -40,7 +35,7 @@
   }
   .flexRow--contentFooter2{
     width:100%;
-    margin: 0 auto 60px;
+    margin: 30px auto 60px;
   }
   .flexRow--footerInfo-content .stretchChildrenWidth:first-child{
     width:70% !important;

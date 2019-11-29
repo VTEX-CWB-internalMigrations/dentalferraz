@@ -8,9 +8,9 @@
   "footer-layout.desktop": {
     "children": [
       "newsletter",
-      "footer-row#1-desktop",
-      "footer-row#2-desktop",
-      "footer-row#3-desktop"
+      "flex-layout.row#1-desktop",
+      "flex-layout.row#2-desktop",
+      "flex-layout.row#3-desktop"
     ]
   },
   "newsletter": {
@@ -22,61 +22,33 @@
       "confirmationText": "Seu email foi registrado"
     }
   },
-  // Footer-row-1
-  "footer-row#1-desktop": {
+  "flex-layout.row#1-desktop": {
     "children": [
-      "flex-layout.row#footer"
+      "flex-layout.col#footer1-Col1",
+      "flex-layout.col#footer1-Col2",
+      "flex-layout.col#footer1-Col3",
+      "flex-layout.col#footer1-Col4"
     ]
   },
-  "footer-row#2-desktop": {
+  "flex-layout.row#2-desktop": {
     "children": [
-      "flex-layout.row#footer2"
-    ]
-  },
-  "footer-row#3-desktop": {
-    "children": [
-      "flex-layout.row#footer3"
-    ]
-  },
-  // Conteúdo
-  "flex-layout.row#footer": {
-    "children": [
-      "flex-layout.col#footerCol1",
-      "flex-layout.col#middleSpacer",
-      "flex-layout.col#footerCol2",
-      "flex-layout.col#middleSpacer",
-      "flex-layout.col#footerCol3",
-      "flex-layout.col#middleSpacer",
-      "flex-layout.col#footerCol4"
-    ],
-    "props": {
-      "blockClass": "borderFooter"
-    }
-  },
-  "flex-layout.col#middleSpacer": {
-    "props": {
-      "width": "3%"
-    }
-  },
-  "flex-layout.row#footer2": {
-    "children": [
-      "flex-layout.col#footer2Col1",
+      "flex-layout.col#footer2-Col1",
       "footer-spacer",
-      "flex-layout.col#footer2Col2",
+      "flex-layout.col#footer2-Col2",
       "footer-spacer",
-      "flex-layout.col#footer2Col3"
+      "flex-layout.col#footer2-Col3"
     ],
     "props": {
       "blockClass": "contentFooter2"
     }
   },
-  "flex-layout.row#footer3": {
+  "flex-layout.row#3-desktop": {
     "children": [
-      "flex-layout.col#footer3Col1"
+      "flex-layout.col#footer3-Col1"
     ]
   },
-  // Footer Col 1
-  "flex-layout.col#footerCol1": {
+
+  "flex-layout.col#footer1-Col1": {
     "children": [
       "rich-text#institucional",
       "rich-text#sobreEmpresa",
@@ -126,7 +98,6 @@
       "blockClass": "footer-links"
     }
   },
-
   "rich-text#perguntasFrequentes": {
     "props": {
       "text": "[Perguntas frequentes](/questions)",
@@ -134,7 +105,7 @@
     }
   },
   // Footer Col 2
-  "flex-layout.col#footerCol2": {
+  "flex-layout.col#footer1-Col2": {
     "children": [
       "rich-text#nossasVantagens",
       "rich-text#footer-entrega",
@@ -154,23 +125,23 @@
   "rich-text#footer-entrega": {
     "props": {
       "text": "![Entrega para todo o Brasil](https://storecomponents.vteximg.com.br/assets/vtex.file-manager-graphql/images/icon-shipping___54d6786267049088fa665cc1a6831c98.png) Entrega para todo o Brasil",
-      "blockClass": "footer-entrega"
+      "blockClass": "footer-img"
     }
   },
   "rich-text#footer-parcelamento": {
     "props": {
       "text": "![Parcele em até 3x sem juros](https://storecomponents.vteximg.com.br/assets/vtex.file-manager-graphql/images/icon-wallet___95380df7f8e412af43a3f8de7e48c80a.png) Parcele em até 3x sem juros",
-      "blockClass": "footer-parcelamento"
+      "blockClass": "footer-img"
     }
   },
   "rich-text#footer-seguranca": {
     "props": {
       "text": "![Site 100% seguro](https://storecomponents.vteximg.com.br/assets/vtex.file-manager-graphql/images/icon-security___11eee6d903642579568f1dd38860f6c5.png) Site 100% seguro",
-      "blockClass": "footer-seguranca"
+      "blockClass": "footer-img"
     }
   },
   // Footer Col 3
-  "flex-layout.col#footerCol3": {
+  "flex-layout.col#footer1-Col3": {
     "children": [
       "rich-text#centralAtendimento",
       "rich-text#footer-telefone"
@@ -204,7 +175,7 @@
     }
   },
   // Footer Col 4
-  "flex-layout.col#footerCol4": {
+  "flex-layout.col#footer1-Col4": {
     "children": [
       "rich-text#facebook-frame"
     ],
@@ -218,7 +189,7 @@
     }
   },
 
-  "flex-layout.col#footer2Col1": {
+  "flex-layout.col#footer2-Col1": {
     "children": [
       "rich-text#siganos",
       "social-networks"
@@ -247,7 +218,7 @@
       ]
     }
   },
-  "flex-layout.col#footer2Col2": {
+  "flex-layout.col#footer2-Col2": {
     "children": [
       "rich-text#pagamento",
       "image#flagPayments"
@@ -267,7 +238,7 @@
     }
   },
   // Footer 3
-  "flex-layout.col#footer2Col3": {
+  "flex-layout.col#footer2-Col3": {
     "children": [
       "rich-text#seguranca",
       "flex-layout.row#certificados"
@@ -316,7 +287,7 @@
       "text": "![Google](https://storecomponents.vteximg.com.br/assets/vtex.file-manager-graphql/images/icon-google___b4118dcafc4103591c63352301abf8d0.png)"
     }
   },
-  "flex-layout.col#footer3Col1": {
+  "flex-layout.col#footer3-Col1": {
     "children": [
       "flex-layout.row#footerInfo"
     ]
@@ -390,8 +361,8 @@
   },
   "flex-layout.row#actionsFooter": {
     "children": [
-      "flex-layout.col#footerCol1",
-      "flex-layout.col#footerCol2"
+      "flex-layout.col#footer1-Col1",
+      "flex-layout.col#footer1-Col2"
     ],
     "props": {
       "blockClass": "mobileCol"

@@ -95,22 +95,14 @@
   color: #555555;   
   text-decoration: none;
 }
-
-.container--footer-entrega .paragraph,
-.container--footer-parcelamento .paragraph,
-.container--footer-seguranca .paragraph{
+.image--footer-img{vertical-align:middle;}
+.container--footer-img .paragraph{
     color: #308391;
     font-size: 15px;
     font-weight: bold;
     margin: 0 0 10px;
+    padding: 10px;
 }
-
-.container--footer-entrega .paragraph,
-.container--footer-parcelamento .paragraph,
-.container--footer-seguranca .paragraph{
-  padding: 10px;
-}
-
 .container--footer-responsavel .paragraph{
   margin-top:0;
 }
