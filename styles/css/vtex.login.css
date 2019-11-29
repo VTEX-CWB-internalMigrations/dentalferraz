@@ -21,7 +21,4 @@
         width: auto;
         height: auto;
     }
-    .container:hover .label{
-        color:#308391;
-    }
 }
