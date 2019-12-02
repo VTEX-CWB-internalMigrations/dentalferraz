@@ -38,7 +38,6 @@
     },
     "children": [
       "product-images",
-      // "rich-text#consulteMedico",
       "share#default"
     ]
   },
@@ -48,13 +47,7 @@
       "displayThumbnailsArrows": true
     }
   },
-  // "rich-text#consulteMedico":{
-  //   "props":{
-  //     "text":"É UM MEDICAMENTO. SEU USO PODE TRAZER RISCOS. PROCURE O MÉDICO E O FARMACÊUTICO. LEIA A BULA.",
-  //     "blockClass":"alert",
-  //     "textAlignment":"CENTER"
-  //   }
-  // },
+
   "flex-layout.col#product-price": {
     "props": {
       "preventVerticalStretch": true,
@@ -64,17 +57,9 @@
       "product-name",
       "product-identifier.product",
       "product-highlights",
-      //"product-specifications",
-      "product-description",
       "flex-layout.row#product-boxAction",
-      // "rich-text#warning",
-      // "product-rating-summary",
-      // "product-price#product-details",
-      // "product-quantity",
-      // "sku-selector",
-      // "flex-layout.row#buy-button",
-      // "availability-subscriber",
-      "shipping-simulator"
+      "shipping-simulator",
+      "product-description"
     ]
   },
   "flex-layout.row#product-boxAction": {
@@ -103,13 +88,6 @@
       "buy-button"
     ]
   },
-  // warning
-  // "rich-text#warning":{
-  //   "props":{
-  //     "text":"ATENÇÃO AOS DIAS DE ENTREGA DOS PRODUTOS QUE NECESSITAM DE CONSERVAÇÃO ESPECIAL 2ºC A 8ºC (SEGUNDA-FEIRA À TERÇA-FEIRA). ESSE MEDICAMENTO É ENVIADO NO PRAZO DE 48 HORAS CONFORME AS BOAS PRÁTICAS DE TRANSPORTE. QUALQUER DÚVIDA FALE COM NOSSA FARMACÊUTICA.",
-  //     "blockClass": "alert"
-  //   }
-  // },
   "share#default": {
     "props": {
       "social": {

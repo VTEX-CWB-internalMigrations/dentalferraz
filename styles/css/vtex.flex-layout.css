@@ -9,8 +9,15 @@
 .flexRow--deals .flexCol {
   align-items: center;
 }
-.flexRow--product-contentPrices{border-top:1px solid #ddd;border-bottom: 1px solid #ddd;position: relative;min-height: 105px;}
-
+.flexRow--product-contentPrices{
+  border-top:1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  position: relative;
+  min-height: 105px;
+}
+.flexColChild{
+  height: auto;
+}
 .flexRow--block-questions .stretchChildrenWidth{
   width: 100% !important;
   display:flex;
@@ -34,9 +41,6 @@
   .flexRow--contentFooter2{
     width:100%;
     margin: 30px auto 60px;
-  }
-  .flexRow--footerInfo-content .stretchChildrenWidth:first-child{
-    width:70% !important;
   }
   .flexRow--footerInfo-content .stretchChildrenWidth:last-child{
     width: 25%;

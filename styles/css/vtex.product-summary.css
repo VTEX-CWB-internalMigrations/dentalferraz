@@ -2,14 +2,17 @@
     border: 1px solid #efefef;
     padding-bottom: 0;
 }
-
+.imageStackContainer{
+    min-height: 15rem;
+}
 .priceContainer{
     padding-bottom: 0;
 }
 
 .imageNormal{
     padding:1em;
-    box-sizing: border-box;
+    box-sizing:border-box;
+    max-height:15rem;
 }
 
 .nameContainer{
