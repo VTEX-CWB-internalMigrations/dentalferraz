@@ -18,13 +18,15 @@
 .menuContainer--mobileMenu .menuContainer--mobileSubmenu .styledLink{
     color: #308391;
 }
-
+.styledLink{
+    color:#fff;
+    font-size: .9em;
+}
+.submenu .styledLink{
+    color:#000;
+}
 @media only screen and (min-width: 80em){
     .menuContainer{justify-content: center;}
-    .styledLink{
-        color:#fff;
-        font-size: .9em;
-    }
     .submenu{
         justify-content: left;
         width:300px;
