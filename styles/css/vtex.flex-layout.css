@@ -60,9 +60,5 @@
   .flexRow--deals .stretchChildrenWidth{
     width:50% !important;
     display: inline-flex;
-  }  
-  .flexRow--mobileCol .stretchChildrenWidth{
-    width:49% !important;
-    display: inline-flex;
   }
 }

@@ -317,15 +317,16 @@
   "footer-layout.mobile": {
     "children": [
       "newsletter",
+      "footer-row#2-mobile",
       "footer-row#1-mobile",
       "footer-row#1-1-mobile",
-      "footer-row#2-mobile",
       "footer-row#3-mobile",
       "footer-row#4-mobile"
     ]
   },
   "footer-row#1-mobile": {
     "children": [
+      "rich-text#pagamento",
       "image#flagPayments"
     ],
     "props": {
@@ -334,8 +335,12 @@
   },
   "footer-row#1-1-mobile": {
     "children": [
+      "rich-text#siganos",
       "social-networks"
-    ]
+    ],
+    "props": {
+      "blockClass": "payment-methods"
+    }
   },
   "footer-row#2-mobile": {
     "children": [
@@ -344,8 +349,7 @@
   },
   "flex-layout.row#actionsFooter": {
     "children": [
-      "flex-layout.col#footer1-Col1",
-      "flex-layout.col#footer1-Col2"
+      "flex-layout.col#footer1-Col1"
     ],
     "props": {
       "blockClass": "mobileCol"
@@ -355,18 +359,13 @@
   // coluna 3
   "footer-row#3-mobile": {
     "children": [
-      "rich-text#footer-mobile"
+      "rich-text#direitos"
     ],
     "props": {
       "blockClass": "credits"
     }
   },
-  "rich-text#footer-mobile": {
-    "props": {
-      "text": "SEU TEXTO AQUI",
-      "blockClass": "footer"
-    }
-  },
+
   // Coluna 4
   "footer-row#4-mobile": {
     "children": [
