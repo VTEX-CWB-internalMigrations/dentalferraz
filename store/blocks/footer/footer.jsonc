@@ -144,7 +144,8 @@
   "flex-layout.col#footer1-Col3": {
     "children": [
       "rich-text#centralAtendimento",
-      "rich-text#footer-telefone"
+      "rich-text#footer-telefone",
+      "rich-text#footer-horario"
     ],
     "props": {
       "blockClass": "footer-content3"
@@ -209,11 +210,15 @@
       "socialNetworks": [
         {
           "name": "Facebook",
-          "url": "https://www.facebook.com/vtexonline/"
+          "url": "https://www.facebook.com/dentalferraz/"
+        },
+        {
+          "name": "Youtube",
+          "url": "https://www.youtube.com/channel/UCaFBAIJ8JKeWDhC5FNtbv_w"
         },
         {
           "name": "Instagram",
-          "url": "https://www.instagram.com/vtextruecloud/"
+          "url": "https://www.instagram.com/ferrazdescartaveis/"
         }
       ]
     }

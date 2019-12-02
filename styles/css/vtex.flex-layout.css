@@ -16,7 +16,7 @@
   min-height: 105px;
 }
 .flexColChild{
-  height: auto;
+  height: auto !important;
 }
 .flexRow--block-questions .stretchChildrenWidth{
   width: 100% !important;
