@@ -185,7 +185,7 @@
   },
   "rich-text#facebook-frame": {
     "props": {
-      "text": "SEU E-MAIL AQUI"
+      "text": "'<iframe src='https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fdentalferraz%2F&tabs&width=340&height=214&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=1126797967420050' width='340' height='214' style='border:none;overflow:hidden' scrolling='no' frameborder='0' allowTransparency='true' allow='encrypted-media'></iframe>'"
     }
   },
 
@@ -252,20 +252,8 @@
   },
   "flex-layout.row#certificados": {
     "children": [
-      "flex-layout.col#certificadoAnvisa",
-      "flex-layout.col#certificadoLetsEncrypt",
-      "flex-layout.col#certificadoGoogle"
+      "flex-layout.col#certificadoLetsEncrypt"
     ]
-  },
-  "flex-layout.col#certificadoAnvisa": {
-    "children": [
-      "rich-text#anvisa"
-    ]
-  },
-  "rich-text#anvisa": {
-    "props": {
-      "text": "![anvisa](https://storecomponents.vteximg.com.br/assets/vtex.file-manager-graphql/images/icon-anvisa___43d8fc0d2a66f769f9ceb8cadeb3f5bb.png)"
-    }
   },
   "rich-text#letsEncrypt": {
     "props": {
@@ -276,16 +264,6 @@
     "children": [
       "rich-text#letsEncrypt"
     ]
-  },
-  "flex-layout.col#certificadoGoogle": {
-    "children": [
-      "rich-text#google"
-    ]
-  },
-  "rich-text#google": {
-    "props": {
-      "text": "![Google](https://storecomponents.vteximg.com.br/assets/vtex.file-manager-graphql/images/icon-google___b4118dcafc4103591c63352301abf8d0.png)"
-    }
   },
   "flex-layout.col#footer3-Col1": {
     "children": [
