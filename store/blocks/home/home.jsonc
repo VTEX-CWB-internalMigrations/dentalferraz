@@ -10,18 +10,7 @@
   "carousel#One": {
     "props": {
       "autoplay": false,
-      "banners": [
-        {
-          "image": "https://storecomponents.vteximg.com.br/assets/vtex.file-manager-graphql/images/banner01___35502d7343f4ac84311b6ddda007ce02.jpg",
-          "mobileImage": "https://mundialfarma.vteximg.com.br/assets/vtex.file-manager-graphql/images/002___e6e93fb70b233b06853a7640af5c049f.jpg",
-          "description": "Banner 001"
-        },
-        {
-          "image": "https://storecomponents.vteximg.com.br/assets/vtex.file-manager-graphql/images/banner02___fe6a2511bb8b5a3f2e27b8eedbbc084b.jpg",
-          "mobileImage": "https://mundialfarma.vteximg.com.br/assets/vtex.file-manager-graphql/images/002___e6e93fb70b233b06853a7640af5c049f.jpg",
-          "description": "Banner 002"
-        }
-      ],
+      "banners": [],
       "height": 600,
       "showArrows": true,
       "showDots": true
