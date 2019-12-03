@@ -5,10 +5,22 @@
   "store.custom#security":{
     "path":"/security"
   },
+  "store.custom#politica":{
+    "path":"/politica"
+  },
+  "store.custom#trocas-devolucoes":{
+    "path":"/trocas-devolucoes"
+  },
+  "store.custom#formas-pagamento":{
+    "path":"/formas-pagamento"
+  },
+  "store.custom#cert-anvisa":{
+    "path":"/cert-anvisa"
+  },
+  "store.custom#entrega":{
+    "path":"/entrega"
+  },
   "store.custom#questions":{
     "path":"/questions"
-  },
-  "store.custom#institutionalOne":{
-    "path":"/institutionalOne"
   }
 }

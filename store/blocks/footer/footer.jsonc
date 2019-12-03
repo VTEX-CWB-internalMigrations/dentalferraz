@@ -55,7 +55,9 @@
       "rich-text#segurancaFooter",
       "rich-text#politica",
       "rich-text#trocasEdevolucoes",
-      "rich-text#informacoesImportantes",
+      "rich-text#formasPagamento",
+      "rich-text#entrega",
+      "rich-text#certificadosAnvisa",
       "rich-text#perguntasFrequentes"
     ],
     "props": {
@@ -92,15 +94,27 @@
       "blockClass": "footer-links"
     }
   },
-  "rich-text#informacoesImportantes": {
+  "rich-text#formasPagamento": {
     "props": {
-      "text": "[Informações importantes](/informacoes-importantes)",
+      "text": "[Formas de Pagamento](/formas-pagamento)",
+      "blockClass": "footer-links"
+    }
+  },
+  "rich-text#certificadosAnvisa": {
+    "props": {
+      "text": "[Certificados Anvisa](/cert-anvisa)",
+      "blockClass": "footer-links"
+    }
+  },
+  "rich-text#entrega": {
+    "props": {
+      "text": "[Entrega](/entrega)",
       "blockClass": "footer-links"
     }
   },
   "rich-text#perguntasFrequentes": {
     "props": {
-      "text": "[Perguntas frequentes](/questions)",
+      "text": "[Dúvidas](/questions)",
       "blockClass": "footer-links"
     }
   },
