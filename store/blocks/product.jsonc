@@ -3,9 +3,7 @@
     "children": [
       "flex-layout.row#product-breadcrumb",
       "flex-layout.row#product-main",
-      "shelf.relatedProducts",
-      "product-reviews",
-      "product-questions-and-answers"
+      "shelf.relatedProducts"
     ]
   },
   "flex-layout.row#product-breadcrumb": {
@@ -47,7 +45,6 @@
       "displayThumbnailsArrows": true
     }
   },
-
   "flex-layout.col#product-price": {
     "props": {
       "preventVerticalStretch": true,
@@ -58,9 +55,16 @@
       "product-identifier.product",
       "product-highlights",
       "flex-layout.row#product-boxAction",
+      "sku-selector",
       "shipping-simulator",
       "product-description"
     ]
+  },
+  "sku-selector": {
+    "props": {
+      "variationsSpacing": 3,
+      "showValueNameForImageVariation": true
+    }
   },
   "flex-layout.row#product-boxAction": {
     "props": {
